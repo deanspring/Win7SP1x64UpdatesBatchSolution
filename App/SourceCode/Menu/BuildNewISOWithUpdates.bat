@@ -39,13 +39,14 @@ ECHO   12. [可选]解除官方最新补丁对Ryzen和7代酷睿处理器不能使用Win7的限制[非Ryze
 ECHO.
 ECHO   13. [最后执行此项]为您生成全新的支持BIOS和UEFI双模式引导的ISO
 ECHO.
-ECHO   00. 更多.. (敬请期待. . .)                                0. 返回首页
+ECHO   14. 我的博客       15.  Github更新页面         00. 打赏支持              0. 返回首页
 ECHO.
 ECHO.
 SET /p input=*  请输入你要选择的数字:
 if "%input%"=="0" (CALL "%APP_HOME%\SourceCode\Menu\Home.bat")
 if "%input%"=="00" (
-    START http://t.cn/RStk2bP
+    START /B %APP_HOME%\Packs\RewardMe\RewardMe.png
+    rem START http://t.cn/RStk2bP
     GOTO ISOMenu
 )
 if "%input%"=="1" (GOTO :PREPARE)
@@ -67,7 +68,9 @@ if "%input%"=="re" (GOTO :RebuildCurrentInstallWIM)
 if "%input%"=="info" (GOTO :GetCurrentImageInfo)
 if "%input%"=="os" (GOTO :OneStep)
 if "%input%"=="swi" (GOTO :SetWimInfoUser)
-if %input% GTR 13 (
+if "%input%"=="14" (START http://t.cn/RStk2bP)
+if "%input%"=="15" (START http://t.cn/Ro0s9FK)
+if %input% GTR 15 (
     ECHO.
     ECHO 请输入一个有效的数字
 )
