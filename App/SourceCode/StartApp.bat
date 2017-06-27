@@ -1,5 +1,6 @@
 ::Author:Ô¶¾°ÂÛÌ³Jay1982
 ::Blog: https://www.cnblogs.com/1982/
+::Github: https://github.com/deanspring/Win7SP1x64UpdatesBatchSolution
 ::QQ:1438411802
 @ECHO OFF&PUSHD %~DP0
 CALL :Notice
