@@ -1,0 +1,3 @@
+SET UPDATES1ST_HOME=%APP_HOME%\Updates\CAB\Updates1st
+SET "SUCCESSTIPS=用于基于 %OS_ARCHITECTURE% 的系统的 Windows 7 更新程序"
+CALL %APP_HOME%\SourceCode\Common\Utils\InstallCAB.bat %UPDATES1ST_HOME% "%SUCCESSTIPS%"

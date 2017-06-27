@@ -1,0 +1,277 @@
+Windows Registry Editor Version 5.00
+::Author:远景论坛Jay1982
+::Blog: https://www.cnblogs.com/1982/
+::QQ:1438411802
+
+
+#桌面显示用户文件夹 这台电脑 网络 回收站 控制面板
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{59031a47-3f72-44a7-89c5-5595fe6b30ee}"=dword:00000000
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000
+"{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}"=dword:00000000
+"{645FF040-5081-101B-9F08-00AA002F954E}"=dword:00000000
+"{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}"=dword:00000000
+
+
+#桌面显示IE
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}]
+@="@ieframe.dll,-880"
+"InfoTip"="@,-881"
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\DefaultIcon]
+@="C:\\Windows\\System32\\ieframe.dll,-190"
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\InProcServer32]
+@="C:\\Windows\\System32\\ieframe.dll"
+"ThreadingModel"="Apartment"
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\shell\Open\Command]
+@="\"C:\\Program Files\\Internet Explorer\\iexplore.exe\""
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\shell\InPrivate]
+@="@ieframe.dll,-13171"
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\shell\InPrivate\Command]
+@="\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" -private"
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\shell\NoAddOns]
+@="无加载项启动"
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\shell\NoAddOns\Command]
+@="\"C:\\Program Files (x86)\\Internet Explorer\\iexplore.exe\" -extoff"
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\Shellex\ContextMenuHandlers\ieframe]
+@="{871C5380-42A0-1069-A2EA-08002B30309D}"
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\Shellex\MayChangeDefaultMenu]
+@=""
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\ShellFolder]
+@="@ieframe.dll,-190"
+"HideAsDeletePerUser"=""
+"HideOnDesktopPerUser"=""
+"HideFolderVerbs"=""
+"WantsParseDisplayName"=""
+"Attributes"=dword:00000024
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\shell\属性(R)]
+@="@ieframe.dll,1031"
+"Position"="bottom"
+[HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30301D}\shell\属性(R)\command]
+@="rundll32.exe Shell32.dll,Control_RunDLL InetCpl.cpl,"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{871C5380-42A0-1069-A2EA-08002B30301D}]
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Settings]
+"Always Use My Font Face"=dword:00000001
+
+
+#通知区域始终显示所有图标
+#去掉快捷方式字样
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"EnableAutoTray"=dword:00000000
+"link"=hex:00,00,00,00
+
+
+#将用户账号控制程序（UAC）调整为从不通知
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableLUA"=dword:00000000
+"PromptOnSecureDesktop"=dword:00000000
+"ConsentPromptBehaviorAdmin"=dword:00000000
+
+
+#显示已知类型的文件扩展名
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideFileExt"=dword:00000000
+
+
+#隐藏“操作中心”托盘图标
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"HideSCAHealth"=dword:00000001
+
+
+#右键加上管理员取得所有权菜单
+[HKEY_CLASSES_ROOT\*\shell\runas]
+@="获取管理员权限"
+"NoWorkingDirectory"=""　　
+[HKEY_CLASSES_ROOT\*\shell\runas\command]
+@="cmd.exe /c takeown /f \"%1\" && icacls \"%1\" /grant administrators:F"
+"IsolatedCommand"="cmd.exe /c takeown /f \"%1\" && icacls \"%1\" /grant administrators:F"　　
+[HKEY_CLASSES_ROOT\exefile\shell\runas2]
+@="获取管理员权限"
+"NoWorkingDirectory"=""　　
+[HKEY_CLASSES_ROOT\exefile\shell\runas2\command]
+@="cmd.exe /c takeown /f \"%1\" && icacls \"%1\" /grant administrators:F"
+"IsolatedCommand"="cmd.exe /c takeown /f \"%1\" && icacls \"%1\" /grant administrators:F"　　
+[HKEY_CLASSES_ROOT\Directory\shell\runas]
+@="获取管理员权限"
+"NoWorkingDirectory"=""　　
+[HKEY_CLASSES_ROOT\Directory\shell\runas\command]
+@="cmd.exe /c takeown /f \"%1\" /r /d y && icacls \"%1\" /grant administrators:F /t"
+"IsolatedCommand"="cmd.exe /c takeown /f \"%1\" /r /d y && icacls \"%1\" /grant administrators:F /t"
+
+
+#在任务栏中显示其他语言栏图标
+[HKEY_CURRENT_USER\Software\Microsoft\CTF\LangBar]
+"ShowStatus"=dword:00000004
+"Transparency"=dword:00000040
+
+
+#开启CMD下按Tab键自动完成功能
+[HKEY_CURRENT_USER\Software\Microsoft\Command Processor] 
+"CompletionChar"=dword:00000009
+
+
+#开机开启小键盘
+[HKEY_USERS\.DEFAULT\Control Panel\Keyboard]
+"InitialKeyboardIndicators"="2"
+[HKEY_CURRENT_USER\Control Panel\Keyboard]
+"InitialKeyboardIndicators"="2"
+
+
+#命令提示符开启快速编辑模式和插入模式
+[HKEY_USERS\.DEFAULT\Console\%SystemRoot%_SysNative_cmd.exe]
+"InsertMode"=dword:00000001
+"QuickEdit"=dword:00000001
+[HKEY_CURRENT_USER\Console]
+"QuickEdit"=dword:00000001
+
+
+#禁用自动播放
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers]
+"DisableAutoplay"=dword:00000001
+
+
+#控制面板显示小图标
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel]
+"AllItemsIconView"=dword:00000001
+"StartupPage"=dword:00000001
+
+
+#取消“打开文件-安全警告”
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Associations]
+"ModRiskFileTypes"=".bat;.exe;.reg;.vbs;.cmd"
+
+
+#关闭程序兼容性助手.reg
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppCompat]
+"DisablePCA"=dword:00000001
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\AppCompat]
+"DisablePCA"=dword:00000001
+
+
+#Windows Media Player设置
+#不显示首次使用对话框
+#防止WMP自动更新
+#播放WMP时关闭屏保
+#防止媒体共享
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsMediaPlayer]
+"GroupPrivacyAcceptance"=dword:00000001
+"DisableAutoUpdate"=dword:00000001
+"EnableScreenSaver"=dword:00000001
+"PreventLibrarySharing"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MediaPlayer\Preferences]
+"AcceptedEULA"=dword:00000001
+"FirstTime"=dword:00000001
+
+
+#IE显示收藏夹栏
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\MINIE]
+"LinksBandEnabled"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\TabbedBrowsing]
+"PopupsUseNewWindow"=dword:00000002
+"NewTabPageShow"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\BrowserEmulation]
+"MSCompatibilityMode"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\PhishingFilter]
+"EnabledV9"=dword:00000001
+
+
+#跳过IE11 首次运行自定义设置
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main]
+"DisableFirstRunCustomize"=dword:00000001
+"RunOnceHasShown"=dword:00000001
+"RunOnceComplete"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Main] 
+"DisableFirstRunCustomize"=dword:00000001
+"RunOnceHasShown"=dword:00000001
+"RunOnceComplete"=dword:00000001
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Main] 
+"DisableFirstRunCustomize"=dword:00000001
+"RunOnceHasShown"=dword:00000001
+"RunOnceComplete"=dword:00000001
+
+
+#设置IE首页为空白页
+#打开IE请勿追踪功能(Do Not Track)
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
+"Start Page"="about:Tabs"
+"Default_Page_URL"="about:blank"
+"DoNotTrack"=dword:00000001
+"UseClearType"="yes"
+"Check_Associations"="no"
+
+
+#关闭建议的网站
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Suggested Sites]
+"Enabled"=dword:00000000
+
+
+#关闭SmartScreen
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"SmartScreenEnabled"="Off"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"EnableSmartScreen"=dword:00000000
+
+
+#关闭Windows默认共享
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]
+"AutoShareServer"=dword:00000000
+"AutoShareWks"=dword:00000000
+
+
+#使用css样式屏蔽IE广告
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Styles]
+"User Stylesheet"="C:\\Program Files\\Internet Explorer\\adblock.css"
+"Use My Stylesheet"=dword:00000001
+
+
+
+#允许执行Powershell脚本
+[HKEY_CURRENT_USER\Software\Microsoft\PowerShell\1\ShellIds\Microsoft.PowerShell]
+"ExecutionPolicy"="RemoteSigned"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\ShellIds\Microsoft.PowerShell]
+"ExecutionPolicy"="RemoteSigned"
+
+
+#To Show all Drive Letters After the Drive Name for All Users
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"ShowDriveLettersFirst"=-
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"ShowDriveLettersFirst"=-
+
+
+#设置Windows Update为检查更新，但是让我选择是否下载和安装更新[推荐非Ryzen/7代酷睿及时更新最新补丁]
+#"AUOptions"=dword:00000001 从不检查更新(不推荐)
+#"AUOptions"=dword:00000002 检查更新，但是让我选择是否下载和安装更新
+#"AUOptions"=dword:00000003 下载更新，但是让我选择是否安装更新
+#"AUOptions"=dword:00000004 自动安装更新(推荐)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update]
+"AUOptions"=dword:00000002
+"ElevateNonAdmins"=dword:00000001
+"IncludeRecommendedUpdates"=dword:00000000
+"AcceleratedInstallRequired"=-
+"CachedAUOptions"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"NoAUShutdownOption"=dword:00000001
+"NoAutoRebootWithLoggedOnUsers"=dword:00000001
+
+#禁止Windows10更新提示
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Gwx]
+"DisableGwx"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
+"DisableOSUpgrade"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\OSUpgrade]
+"ReservationsAllowed"=dword:00000000
+
+#若显卡已驱动,开启Aero主题
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes]
+"CurrentTheme"="C:\\Windows\\resources\\Themes\\aero.theme"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\DWM]
+"ColorizationAfterglowBalance"=dword:0000002B
+"ColorizationBlurBalance"=dword:00000031
+"ColorizationColorBalance"=dword:00000008
+"ColorizationOpaqueBlend"=dword:00000000
+"ColorizationGlassReflectionIntensity"=dword:00000032
+"Composition"=dword:00000001
+"CompositionPolicy"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\Background]
+"OEMBackground"=dword:00000000

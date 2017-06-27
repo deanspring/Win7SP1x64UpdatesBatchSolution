@@ -1,0 +1,3 @@
+SET SECURITYUPDATE_HOME=%APP_HOME%\Updates\CAB\SecurityUpdate
+SET "SUCCESSTIPS=用于基于 %OS_ARCHITECTURE% 的系统的 Windows 7 安全更新程序"
+CALL %APP_HOME%\SourceCode\Common\Utils\InstallCAB.bat %SECURITYUPDATE_HOME% "%SUCCESSTIPS%"
