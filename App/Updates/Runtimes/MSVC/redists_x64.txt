@@ -1,0 +1,9 @@
+vcredist_x64_2005\vcredist.msi
+vcredist_x64_2008\vc_red.msi
+vcredist_x64_2010\vc_red.msi
+vcredist_x64_2012\vc_runtimeMinimum_x64.msi
+vcredist_x64_2012\vc_runtimeAdditional_x64.msi
+vcredist_x64_2013\vc_runtimeMinimum_x64.msi
+vcredist_x64_2013\vc_runtimeAdditional_x64.msi
+vcredist_x64_2015-2017\vc_runtimeMinimum_x64.msi
+vcredist_x64_2015-2017\vc_runtimeAdditional_x64.msi

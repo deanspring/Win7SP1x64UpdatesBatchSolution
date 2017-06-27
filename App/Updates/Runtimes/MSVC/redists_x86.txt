@@ -1,0 +1,9 @@
+vcredist_x86_2005\vcredist.msi
+vcredist_x86_2008\vc_red.msi
+vcredist_x86_2010\vc_red.msi
+vcredist_x86_2012\vc_runtimeMinimum_x86.msi
+vcredist_x86_2012\vc_runtimeAdditional_x86.msi
+vcredist_x86_2013\vc_runtimeMinimum_x86.msi
+vcredist_x86_2013\vc_runtimeAdditional_x86.msi
+vcredist_x86_2015-2017\vc_runtimeMinimum_x86.msi
+vcredist_x86_2015-2017\vc_runtimeAdditional_x86.msi
