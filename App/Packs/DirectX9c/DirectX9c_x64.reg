@@ -1,0 +1,2569 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{03219e78-5bc3-44d1-b92e-f63d89cc6526}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{03219e78-5bc3-44d1-b92e-f63d89cc6526}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{074b110f-7f58-4743-aea5-12f15b5074ed}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{074b110f-7f58-4743-aea5-12f15b5074ed}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,35,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{0977d092-2d95-4e43-8d42-9ddcc2545ed5}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{0977d092-2d95-4e43-8d42-9ddcc2545ed5}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,34,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{0aa000aa-f404-11d9-bd7a-0010dc4f8f81}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{0aa000aa-f404-11d9-bd7a-0010dc4f8f81}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,30,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{1138472b-d187-44e9-81f2-ae1b0e7785f1}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{1138472b-d187-44e9-81f2-ae1b0e7785f1}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,33,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{1f1b577e-5e5a-4e8a-ba73-c657ea8e8598}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{1f1b577e-5e5a-4e8a-ba73-c657ea8e8598}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,31,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{2139e6da-c341-4774-9ac3-b4e026347f64}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{2139e6da-c341-4774-9ac3-b4e026347f64}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{248d8a3b-6256-44d3-a018-2ac96c459f47}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{248d8a3b-6256-44d3-a018-2ac96c459f47}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,36,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{343e68e6-8f82-4a8d-a2da-6e9a944b378c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{343e68e6-8f82-4a8d-a2da-6e9a944b378c}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_9.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,39,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{3a2495ce-31d0-435b-8ccf-e9f0843fd960}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{3a2495ce-31d0-435b-8ccf-e9f0843fd960}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,36,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{3b80ee2a-b0f5-4780-9e30-90cb39685b03}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{3b80ee2a-b0f5-4780-9e30-90cb39685b03}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,30,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{3eda9b49-2085-498b-9bb2-39a6778493de}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{3eda9b49-2085-498b-9bb2-39a6778493de}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{4c5e637a-16c7-4de3-9c46-5ed22181962d}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{4c5e637a-16c7-4de3-9c46-5ed22181962d}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{4c9b6dde-6809-46e6-a278-9b6a97588670}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{4c9b6dde-6809-46e6-a278-9b6a97588670}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{54b68bc7-3a45-416b-a8c9-19bf19ec1df5}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{54b68bc7-3a45-416b-a8c9-19bf19ec1df5}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,35,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{5a508685-a254-4fba-9b82-9a24b00306af}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{5a508685-a254-4fba-9b82-9a24b00306af}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{629cf0de-3ecc-41e7-9926-f7e43eebec51}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{629cf0de-3ecc-41e7-9926-f7e43eebec51}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{65d822a4-4799-42c6-9b18-d26cf66dd320}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{65d822a4-4799-42c6-9b18-d26cf66dd320}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_10.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,31,00,30,00,2e,\
+  00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{6a93130e-1d53-41d1-a9cf-e758800bb179}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{6a93130e-1d53-41d1-a9cf-e758800bb179}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{6f6ea3a9-2cf5-41cf-91c1-2170b1540063}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{6f6ea3a9-2cf5-41cf-91c1-2170b1540063}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{77c56bf4-18a1-42b0-88af-5072ce814949}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{77c56bf4-18a1-42b0-88af-5072ce814949}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_8.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,38,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{8bb7778b-645b-4475-9a73-1de3170bd3af}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{8bb7778b-645b-4475-9a73-1de3170bd3af}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{94c1affa-66e7-4961-9521-cfdef3128d4f}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{94c1affa-66e7-4961-9521-cfdef3128d4f}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,33,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{962f5027-99be-4692-a468-85802cf8de61}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{962f5027-99be-4692-a468-85802cf8de61}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,31,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{9cab402c-1d37-44b4-886d-fa4f36170a4c}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{9cab402c-1d37-44b4-886d-fa4f36170a4c}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{b802058a-464a-42db-bc10-b650d6f2586a}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{b802058a-464a-42db-bc10-b650d6f2586a}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{bc3e0fc6-2e0d-4c45-bc61-d9c328319bd8}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{bc3e0fc6-2e0d-4c45-bc61-d9c328319bd8}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,34,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{bcc782bc-6492-4c22-8c35-f5d72fe73c6e}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{bcc782bc-6492-4c22-8c35-f5d72fe73c6e}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,37,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c0c56f46-29b1-44e9-9939-a32ce86867e2}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c0c56f46-29b1-44e9-9939-a32ce86867e2}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c1e3f122-a2ea-442c-854f-20d98f8357a1}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c1e3f122-a2ea-442c-854f-20d98f8357a1}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c60fae90-4183-4a3f-b2f7-ac1dc49b0e5c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c60fae90-4183-4a3f-b2f7-ac1dc49b0e5c}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,32,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c7338b95-52b8-4542-aa79-42eb016c8c1c}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c7338b95-52b8-4542-aa79-42eb016c8c1c}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{cac1105f-619b-4d04-831a-44e1cbf12d57}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{cac1105f-619b-4d04-831a-44e1cbf12d57}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{cd0d66ec-8057-43f5-acbd-66dfb36fd78c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{cd0d66ec-8057-43f5-acbd-66dfb36fd78c}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,37,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{cecec95a-d894-491a-bee3-5e106fb59f2d}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{cecec95a-d894-491a-bee3-5e106fb59f2d}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{d06df0d0-8518-441e-822f-5451d5c595b8}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{d06df0d0-8518-441e-822f-5451d5c595b8}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{d3332f02-3dd0-4de9-9aec-20d85c4111b6}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{d3332f02-3dd0-4de9-9aec-20d85c4111b6}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,32,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{e180344b-ac83-4483-959e-18a5c56a5e19}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{e180344b-ac83-4483-959e-18a5c56a5e19}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{e21a7345-eb21-468e-be50-804db97cf708}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{e21a7345-eb21-468e-be50-804db97cf708}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{e48c5a3f-93ef-43bb-a092-2c7ceb946f27}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{e48c5a3f-93ef-43bb-a092-2c7ceb946f27}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{f4769300-b949-4df9-b333-00d33932e9a6}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{f4769300-b949-4df9-b333-00d33932e9a6}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{f5ca7b34-8055-42c0-b836-216129eb7e30}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{f5ca7b34-8055-42c0-b836-216129eb7e30}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{fac23f48-31f5-45a8-b49b-5225d61401aa}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{fac23f48-31f5-45a8-b49b-5225d61401aa}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{03219e78-5bc3-44d1-b92e-f63d89cc6526}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{03219e78-5bc3-44d1-b92e-f63d89cc6526}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{074b110f-7f58-4743-aea5-12f15b5074ed}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{074b110f-7f58-4743-aea5-12f15b5074ed}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,35,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{0977d092-2d95-4e43-8d42-9ddcc2545ed5}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{0977d092-2d95-4e43-8d42-9ddcc2545ed5}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,34,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{0aa000aa-f404-11d9-bd7a-0010dc4f8f81}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{0aa000aa-f404-11d9-bd7a-0010dc4f8f81}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,30,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{1138472b-d187-44e9-81f2-ae1b0e7785f1}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{1138472b-d187-44e9-81f2-ae1b0e7785f1}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,33,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{1f1b577e-5e5a-4e8a-ba73-c657ea8e8598}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{1f1b577e-5e5a-4e8a-ba73-c657ea8e8598}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,31,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{2139e6da-c341-4774-9ac3-b4e026347f64}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{2139e6da-c341-4774-9ac3-b4e026347f64}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{248d8a3b-6256-44d3-a018-2ac96c459f47}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{248d8a3b-6256-44d3-a018-2ac96c459f47}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,36,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{343e68e6-8f82-4a8d-a2da-6e9a944b378c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{343e68e6-8f82-4a8d-a2da-6e9a944b378c}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_9.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,39,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{3a2495ce-31d0-435b-8ccf-e9f0843fd960}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{3a2495ce-31d0-435b-8ccf-e9f0843fd960}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,36,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{3b80ee2a-b0f5-4780-9e30-90cb39685b03}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{3b80ee2a-b0f5-4780-9e30-90cb39685b03}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,30,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{3eda9b49-2085-498b-9bb2-39a6778493de}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{3eda9b49-2085-498b-9bb2-39a6778493de}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{4c5e637a-16c7-4de3-9c46-5ed22181962d}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{4c5e637a-16c7-4de3-9c46-5ed22181962d}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{4c9b6dde-6809-46e6-a278-9b6a97588670}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{4c9b6dde-6809-46e6-a278-9b6a97588670}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{54b68bc7-3a45-416b-a8c9-19bf19ec1df5}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{54b68bc7-3a45-416b-a8c9-19bf19ec1df5}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,35,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{5a508685-a254-4fba-9b82-9a24b00306af}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{5a508685-a254-4fba-9b82-9a24b00306af}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{629cf0de-3ecc-41e7-9926-f7e43eebec51}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{629cf0de-3ecc-41e7-9926-f7e43eebec51}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{65d822a4-4799-42c6-9b18-d26cf66dd320}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{65d822a4-4799-42c6-9b18-d26cf66dd320}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_10.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,31,00,30,00,2e,\
+  00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{6a93130e-1d53-41d1-a9cf-e758800bb179}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{6a93130e-1d53-41d1-a9cf-e758800bb179}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{6f6ea3a9-2cf5-41cf-91c1-2170b1540063}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{6f6ea3a9-2cf5-41cf-91c1-2170b1540063}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{77c56bf4-18a1-42b0-88af-5072ce814949}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{77c56bf4-18a1-42b0-88af-5072ce814949}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_8.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,38,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{8bb7778b-645b-4475-9a73-1de3170bd3af}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{8bb7778b-645b-4475-9a73-1de3170bd3af}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{94c1affa-66e7-4961-9521-cfdef3128d4f}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{94c1affa-66e7-4961-9521-cfdef3128d4f}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,33,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{962f5027-99be-4692-a468-85802cf8de61}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{962f5027-99be-4692-a468-85802cf8de61}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,31,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{9cab402c-1d37-44b4-886d-fa4f36170a4c}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{9cab402c-1d37-44b4-886d-fa4f36170a4c}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{b802058a-464a-42db-bc10-b650d6f2586a}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{b802058a-464a-42db-bc10-b650d6f2586a}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{bc3e0fc6-2e0d-4c45-bc61-d9c328319bd8}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{bc3e0fc6-2e0d-4c45-bc61-d9c328319bd8}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,34,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{bcc782bc-6492-4c22-8c35-f5d72fe73c6e}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{bcc782bc-6492-4c22-8c35-f5d72fe73c6e}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,37,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c0c56f46-29b1-44e9-9939-a32ce86867e2}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c0c56f46-29b1-44e9-9939-a32ce86867e2}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c1e3f122-a2ea-442c-854f-20d98f8357a1}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c1e3f122-a2ea-442c-854f-20d98f8357a1}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c60fae90-4183-4a3f-b2f7-ac1dc49b0e5c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c60fae90-4183-4a3f-b2f7-ac1dc49b0e5c}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,32,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c7338b95-52b8-4542-aa79-42eb016c8c1c}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{c7338b95-52b8-4542-aa79-42eb016c8c1c}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{cac1105f-619b-4d04-831a-44e1cbf12d57}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{cac1105f-619b-4d04-831a-44e1cbf12d57}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{cd0d66ec-8057-43f5-acbd-66dfb36fd78c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{cd0d66ec-8057-43f5-acbd-66dfb36fd78c}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,37,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{cecec95a-d894-491a-bee3-5e106fb59f2d}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{cecec95a-d894-491a-bee3-5e106fb59f2d}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{d06df0d0-8518-441e-822f-5451d5c595b8}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{d06df0d0-8518-441e-822f-5451d5c595b8}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{d3332f02-3dd0-4de9-9aec-20d85c4111b6}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{d3332f02-3dd0-4de9-9aec-20d85c4111b6}\InProcServer32]
+; @="%SystemRoot%\\system32\\xactengine3_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,32,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{e180344b-ac83-4483-959e-18a5c56a5e19}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{e180344b-ac83-4483-959e-18a5c56a5e19}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{e21a7345-eb21-468e-be50-804db97cf708}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{e21a7345-eb21-468e-be50-804db97cf708}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{e48c5a3f-93ef-43bb-a092-2c7ceb946f27}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{e48c5a3f-93ef-43bb-a092-2c7ceb946f27}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{f4769300-b949-4df9-b333-00d33932e9a6}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{f4769300-b949-4df9-b333-00d33932e9a6}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{f5ca7b34-8055-42c0-b836-216129eb7e30}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{f5ca7b34-8055-42c0-b836-216129eb7e30}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{fac23f48-31f5-45a8-b49b-5225d61401aa}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\CLSID\{fac23f48-31f5-45a8-b49b-5225d61401aa}\InProcServer32]
+; @="%SystemRoot%\\system32\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{03219e78-5bc3-44d1-b92e-f63d89cc6526}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{03219e78-5bc3-44d1-b92e-f63d89cc6526}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{074b110f-7f58-4743-aea5-12f15b5074ed}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{074b110f-7f58-4743-aea5-12f15b5074ed}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,35,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{0977d092-2d95-4e43-8d42-9ddcc2545ed5}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{0977d092-2d95-4e43-8d42-9ddcc2545ed5}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,34,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{0aa000aa-f404-11d9-bd7a-0010dc4f8f81}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{0aa000aa-f404-11d9-bd7a-0010dc4f8f81}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,30,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{1138472b-d187-44e9-81f2-ae1b0e7785f1}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{1138472b-d187-44e9-81f2-ae1b0e7785f1}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,33,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{1f1b577e-5e5a-4e8a-ba73-c657ea8e8598}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{1f1b577e-5e5a-4e8a-ba73-c657ea8e8598}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,31,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{2139e6da-c341-4774-9ac3-b4e026347f64}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{2139e6da-c341-4774-9ac3-b4e026347f64}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{248d8a3b-6256-44d3-a018-2ac96c459f47}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{248d8a3b-6256-44d3-a018-2ac96c459f47}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,36,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{343e68e6-8f82-4a8d-a2da-6e9a944b378c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{343e68e6-8f82-4a8d-a2da-6e9a944b378c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_9.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,39,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{3a2495ce-31d0-435b-8ccf-e9f0843fd960}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{3a2495ce-31d0-435b-8ccf-e9f0843fd960}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,36,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{3b80ee2a-b0f5-4780-9e30-90cb39685b03}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{3b80ee2a-b0f5-4780-9e30-90cb39685b03}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,30,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{3eda9b49-2085-498b-9bb2-39a6778493de}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{3eda9b49-2085-498b-9bb2-39a6778493de}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{4c5e637a-16c7-4de3-9c46-5ed22181962d}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{4c5e637a-16c7-4de3-9c46-5ed22181962d}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{4c9b6dde-6809-46e6-a278-9b6a97588670}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{4c9b6dde-6809-46e6-a278-9b6a97588670}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{54b68bc7-3a45-416b-a8c9-19bf19ec1df5}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{54b68bc7-3a45-416b-a8c9-19bf19ec1df5}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,35,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{5a508685-a254-4fba-9b82-9a24b00306af}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{5a508685-a254-4fba-9b82-9a24b00306af}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{629cf0de-3ecc-41e7-9926-f7e43eebec51}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{629cf0de-3ecc-41e7-9926-f7e43eebec51}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{65d822a4-4799-42c6-9b18-d26cf66dd320}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{65d822a4-4799-42c6-9b18-d26cf66dd320}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_10.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,31,00,30,00,2e,\
+  00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{6a93130e-1d53-41d1-a9cf-e758800bb179}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{6a93130e-1d53-41d1-a9cf-e758800bb179}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{6f6ea3a9-2cf5-41cf-91c1-2170b1540063}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{6f6ea3a9-2cf5-41cf-91c1-2170b1540063}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{77c56bf4-18a1-42b0-88af-5072ce814949}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{77c56bf4-18a1-42b0-88af-5072ce814949}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_8.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,38,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{8bb7778b-645b-4475-9a73-1de3170bd3af}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{8bb7778b-645b-4475-9a73-1de3170bd3af}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{94c1affa-66e7-4961-9521-cfdef3128d4f}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{94c1affa-66e7-4961-9521-cfdef3128d4f}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,33,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{962f5027-99be-4692-a468-85802cf8de61}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{962f5027-99be-4692-a468-85802cf8de61}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,31,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{9cab402c-1d37-44b4-886d-fa4f36170a4c}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{9cab402c-1d37-44b4-886d-fa4f36170a4c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{b802058a-464a-42db-bc10-b650d6f2586a}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{b802058a-464a-42db-bc10-b650d6f2586a}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{bc3e0fc6-2e0d-4c45-bc61-d9c328319bd8}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{bc3e0fc6-2e0d-4c45-bc61-d9c328319bd8}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,34,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{bcc782bc-6492-4c22-8c35-f5d72fe73c6e}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{bcc782bc-6492-4c22-8c35-f5d72fe73c6e}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,37,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c0c56f46-29b1-44e9-9939-a32ce86867e2}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c0c56f46-29b1-44e9-9939-a32ce86867e2}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c1e3f122-a2ea-442c-854f-20d98f8357a1}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c1e3f122-a2ea-442c-854f-20d98f8357a1}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c60fae90-4183-4a3f-b2f7-ac1dc49b0e5c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c60fae90-4183-4a3f-b2f7-ac1dc49b0e5c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,32,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c7338b95-52b8-4542-aa79-42eb016c8c1c}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c7338b95-52b8-4542-aa79-42eb016c8c1c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{cac1105f-619b-4d04-831a-44e1cbf12d57}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{cac1105f-619b-4d04-831a-44e1cbf12d57}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{cd0d66ec-8057-43f5-acbd-66dfb36fd78c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{cd0d66ec-8057-43f5-acbd-66dfb36fd78c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,37,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{cecec95a-d894-491a-bee3-5e106fb59f2d}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{cecec95a-d894-491a-bee3-5e106fb59f2d}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{d06df0d0-8518-441e-822f-5451d5c595b8}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{d06df0d0-8518-441e-822f-5451d5c595b8}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{d3332f02-3dd0-4de9-9aec-20d85c4111b6}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{d3332f02-3dd0-4de9-9aec-20d85c4111b6}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,32,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{e180344b-ac83-4483-959e-18a5c56a5e19}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{e180344b-ac83-4483-959e-18a5c56a5e19}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{e21a7345-eb21-468e-be50-804db97cf708}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{e21a7345-eb21-468e-be50-804db97cf708}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{e48c5a3f-93ef-43bb-a092-2c7ceb946f27}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{e48c5a3f-93ef-43bb-a092-2c7ceb946f27}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{f4769300-b949-4df9-b333-00d33932e9a6}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{f4769300-b949-4df9-b333-00d33932e9a6}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{f5ca7b34-8055-42c0-b836-216129eb7e30}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{f5ca7b34-8055-42c0-b836-216129eb7e30}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{fac23f48-31f5-45a8-b49b-5225d61401aa}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{fac23f48-31f5-45a8-b49b-5225d61401aa}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{03219e78-5bc3-44d1-b92e-f63d89cc6526}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{03219e78-5bc3-44d1-b92e-f63d89cc6526}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{074b110f-7f58-4743-aea5-12f15b5074ed}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{074b110f-7f58-4743-aea5-12f15b5074ed}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,35,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{0977d092-2d95-4e43-8d42-9ddcc2545ed5}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{0977d092-2d95-4e43-8d42-9ddcc2545ed5}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,34,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{0aa000aa-f404-11d9-bd7a-0010dc4f8f81}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{0aa000aa-f404-11d9-bd7a-0010dc4f8f81}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,30,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{1138472b-d187-44e9-81f2-ae1b0e7785f1}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{1138472b-d187-44e9-81f2-ae1b0e7785f1}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,33,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{1f1b577e-5e5a-4e8a-ba73-c657ea8e8598}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{1f1b577e-5e5a-4e8a-ba73-c657ea8e8598}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,31,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{2139e6da-c341-4774-9ac3-b4e026347f64}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{2139e6da-c341-4774-9ac3-b4e026347f64}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{248d8a3b-6256-44d3-a018-2ac96c459f47}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{248d8a3b-6256-44d3-a018-2ac96c459f47}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,36,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{343e68e6-8f82-4a8d-a2da-6e9a944b378c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{343e68e6-8f82-4a8d-a2da-6e9a944b378c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_9.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,39,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{3a2495ce-31d0-435b-8ccf-e9f0843fd960}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{3a2495ce-31d0-435b-8ccf-e9f0843fd960}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactenginqe2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,36,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{3b80ee2a-b0f5-4780-9e30-90cb39685b03}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{3b80ee2a-b0f5-4780-9e30-90cb39685b03}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,30,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{3eda9b49-2085-498b-9bb2-39a6778493de}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{3eda9b49-2085-498b-9bb2-39a6778493de}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{4c5e637a-16c7-4de3-9c46-5ed22181962d}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{4c5e637a-16c7-4de3-9c46-5ed22181962d}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{4c9b6dde-6809-46e6-a278-9b6a97588670}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{4c9b6dde-6809-46e6-a278-9b6a97588670}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{54b68bc7-3a45-416b-a8c9-19bf19ec1df5}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{54b68bc7-3a45-416b-a8c9-19bf19ec1df5}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,35,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{5a508685-a254-4fba-9b82-9a24b00306af}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{5a508685-a254-4fba-9b82-9a24b00306af}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{629cf0de-3ecc-41e7-9926-f7e43eebec51}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{629cf0de-3ecc-41e7-9926-f7e43eebec51}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{65d822a4-4799-42c6-9b18-d26cf66dd320}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{65d822a4-4799-42c6-9b18-d26cf66dd320}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_10.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,31,00,30,00,2e,\
+  00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{6a93130e-1d53-41d1-a9cf-e758800bb179}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{6a93130e-1d53-41d1-a9cf-e758800bb179}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{6f6ea3a9-2cf5-41cf-91c1-2170b1540063}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{6f6ea3a9-2cf5-41cf-91c1-2170b1540063}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{77c56bf4-18a1-42b0-88af-5072ce814949}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{77c56bf4-18a1-42b0-88af-5072ce814949}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_8.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,38,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{8bb7778b-645b-4475-9a73-1de3170bd3af}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{8bb7778b-645b-4475-9a73-1de3170bd3af}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{94c1affa-66e7-4961-9521-cfdef3128d4f}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{94c1affa-66e7-4961-9521-cfdef3128d4f}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,33,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{962f5027-99be-4692-a468-85802cf8de61}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{962f5027-99be-4692-a468-85802cf8de61}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,31,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{9cab402c-1d37-44b4-886d-fa4f36170a4c}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{9cab402c-1d37-44b4-886d-fa4f36170a4c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{b802058a-464a-42db-bc10-b650d6f2586a}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{b802058a-464a-42db-bc10-b650d6f2586a}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{bc3e0fc6-2e0d-4c45-bc61-d9c328319bd8}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{bc3e0fc6-2e0d-4c45-bc61-d9c328319bd8}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,34,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{bcc782bc-6492-4c22-8c35-f5d72fe73c6e}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{bcc782bc-6492-4c22-8c35-f5d72fe73c6e}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,37,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c0c56f46-29b1-44e9-9939-a32ce86867e2}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c0c56f46-29b1-44e9-9939-a32ce86867e2}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c1e3f122-a2ea-442c-854f-20d98f8357a1}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c1e3f122-a2ea-442c-854f-20d98f8357a1}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c60fae90-4183-4a3f-b2f7-ac1dc49b0e5c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c60fae90-4183-4a3f-b2f7-ac1dc49b0e5c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,32,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c7338b95-52b8-4542-aa79-42eb016c8c1c}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{c7338b95-52b8-4542-aa79-42eb016c8c1c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{cac1105f-619b-4d04-831a-44e1cbf12d57}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{cac1105f-619b-4d04-831a-44e1cbf12d57}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{cd0d66ec-8057-43f5-acbd-66dfb36fd78c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{cd0d66ec-8057-43f5-acbd-66dfb36fd78c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,37,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{cecec95a-d894-491a-bee3-5e106fb59f2d}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{cecec95a-d894-491a-bee3-5e106fb59f2d}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{d06df0d0-8518-441e-822f-5451d5c595b8}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{d06df0d0-8518-441e-822f-5451d5c595b8}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{d3332f02-3dd0-4de9-9aec-20d85c4111b6}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{d3332f02-3dd0-4de9-9aec-20d85c4111b6}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,32,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{e180344b-ac83-4483-959e-18a5c56a5e19}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{e180344b-ac83-4483-959e-18a5c56a5e19}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{e21a7345-eb21-468e-be50-804db97cf708}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{e21a7345-eb21-468e-be50-804db97cf708}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{e48c5a3f-93ef-43bb-a092-2c7ceb946f27}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{e48c5a3f-93ef-43bb-a092-2c7ceb946f27}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{f4769300-b949-4df9-b333-00d33932e9a6}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{f4769300-b949-4df9-b333-00d33932e9a6}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{f5ca7b34-8055-42c0-b836-216129eb7e30}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{f5ca7b34-8055-42c0-b836-216129eb7e30}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{fac23f48-31f5-45a8-b49b-5225d61401aa}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Classes\Wow6432Node\CLSID\{fac23f48-31f5-45a8-b49b-5225d61401aa}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Microsoft\Fusion\GACChangeNotification\Default]
+"StoreChangeID"=dword:000002c9
+"StoreChangeIDFor64BitProcesses"=dword:00000293
+"StoreChangeIDFor32BitProcesses"=dword:00000291
+"Microsoft.DirectX.Direct3DX,1.0.2902.0,,31bf3856ad364e35"=hex:ea,ac,45,f6,f1,\
+  40,cf,01
+"Microsoft.DirectX.Direct3DX,1.0.2903.0,,31bf3856ad364e35"=hex:58,0a,c4,f6,f1,\
+  40,cf,01
+"Microsoft.DirectX.Direct3DX,1.0.2904.0,,31bf3856ad364e35"=hex:1d,f6,cf,f6,f1,\
+  40,cf,01
+"Microsoft.DirectX.Direct3DX,1.0.2905.0,,31bf3856ad364e35"=hex:69,44,de,f6,f1,\
+  40,cf,01
+"Microsoft.DirectX.Direct3DX,1.0.2906.0,,31bf3856ad364e35"=hex:24,30,ea,f6,f1,\
+  40,cf,01
+"Microsoft.DirectX.Direct3DX,1.0.2907.0,,31bf3856ad364e35"=hex:a0,e0,fa,f6,f1,\
+  40,cf,01
+"Microsoft.DirectX.Direct3DX,1.0.2908.0,,31bf3856ad364e35"=hex:cb,2e,09,f7,f1,\
+  40,cf,01
+"Microsoft.DirectX.Direct3DX,1.0.2909.0,,31bf3856ad364e35"=hex:5b,b8,12,f7,f1,\
+  40,cf,01
+"Microsoft.DirectX.Direct3DX,1.0.2910.0,,31bf3856ad364e35"=hex:22,de,38,f7,f1,\
+  40,cf,01
+"Microsoft.DirectX,1.0.2902.0,,31bf3856ad364e35"=hex:51,8c,87,f7,f1,40,cf,01
+"Microsoft.DirectX.AudioVideoPlayback,1.0.2902.0,,31bf3856ad364e35"=hex:b1,ee,\
+  89,f7,f1,40,cf,01
+"Microsoft.DirectX.Diagnostics,1.0.2902.0,,31bf3856ad364e35"=hex:85,b3,8e,f7,\
+  f1,40,cf,01
+"Microsoft.DirectX.Direct3D,1.0.2902.0,,31bf3856ad364e35"=hex:7b,da,95,f7,f1,\
+  40,cf,01
+"Microsoft.DirectX.Direct3DX,1.0.2911.0,,31bf3856ad364e35"=hex:84,01,9d,f7,f1,\
+  40,cf,01
+"Microsoft.DirectX.DirectDraw,1.0.2902.0,,31bf3856ad364e35"=hex:aa,28,a4,f7,f1,\
+  40,cf,01
+"Microsoft.DirectX.DirectInput,1.0.2902.0,,31bf3856ad364e35"=hex:61,ed,a8,f7,\
+  f1,40,cf,01
+"Microsoft.DirectX.DirectPlay,1.0.2902.0,,31bf3856ad364e35"=hex:de,76,b2,f7,f1,\
+  40,cf,01
+"Microsoft.DirectX.DirectSound,1.0.2902.0,,31bf3856ad364e35"=hex:fa,9d,b9,f7,\
+  f1,40,cf,01
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Microsoft\Fusion\NativeImagesIndex\v2.0.50727_32]
+"SystemStoreChangeId"=dword:00000291
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Microsoft\Fusion\PublisherPolicy\Default]
+"index1"=hex:00
+"LegacyPolicyTimeStamp"=hex:00,00,00,00,00,00,00,00
+"Latest"=dword:00000001
+"Oldest"=dword:00000001
+
+; ----------- Added -----------
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2902.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2902.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,32,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2903.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2903.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,33,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2904.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2904.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,34,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2905.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2905.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,35,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2906.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2906.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,36,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2907.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2907.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,37,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2908.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2908.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,38,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2909.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2909.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,39,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2910.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2910.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,31,00,30,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2911.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2911.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,31,00,31,00,2e,00,30,\
+  00,5c,00,00,00
+
+; ----------- End ------------
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2902.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2902.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,32,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2903.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2903.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,33,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2904.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2904.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,34,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2905.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2905.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,35,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2906.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2906.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,36,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2907.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2907.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,37,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2908.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2908.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,38,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2909.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2909.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,30,00,39,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2910.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2910.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,31,00,30,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\.NETFramework\AssemblyFolders\DX_1.0.2911.0]
+; @="%SystemRoot%\\Microsoft.NET\\DirectX for Managed Code\\1.0.2911.0\\"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,2e,00,4e,00,\
+  45,00,54,00,5c,00,44,00,69,00,72,00,65,00,63,00,74,00,58,00,20,00,66,00,6f,\
+  00,72,00,20,00,4d,00,61,00,6e,00,61,00,67,00,65,00,64,00,20,00,43,00,6f,00,\
+  64,00,65,00,5c,00,31,00,2e,00,30,00,2e,00,32,00,39,00,31,00,31,00,2e,00,30,\
+  00,5c,00,00,00
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.AudioVideoPlayback, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.AudioVideoPlayback, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Diagnostics, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Diagnostics, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2903.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2903.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2904.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2904.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2905.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2905.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2906.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2906.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2907.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2907.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2908.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2908.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2909.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2909.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2910.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2910.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2911.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.Direct3DX, Version=1.0.2911.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.DirectDraw, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.DirectDraw, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.DirectInput, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.DirectInput, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.DirectPlay, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.DirectPlay, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.DirectSound, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Microsoft\Fusion\References\Microsoft.DirectX.DirectSound, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35\{2EC93463-B0C3-45E1-8364-327E96AEA856}]
+"{75339C8C-B4BA-463B-BAC7-975FCA2F89D9}"="DirectX for Managed Code"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{03219e78-5bc3-44d1-b92e-f63d89cc6526}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{03219e78-5bc3-44d1-b92e-f63d89cc6526}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{074b110f-7f58-4743-aea5-12f15b5074ed}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{074b110f-7f58-4743-aea5-12f15b5074ed}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,35,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{0977d092-2d95-4e43-8d42-9ddcc2545ed5}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{0977d092-2d95-4e43-8d42-9ddcc2545ed5}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,34,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{0aa000aa-f404-11d9-bd7a-0010dc4f8f81}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{0aa000aa-f404-11d9-bd7a-0010dc4f8f81}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,30,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{1138472b-d187-44e9-81f2-ae1b0e7785f1}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{1138472b-d187-44e9-81f2-ae1b0e7785f1}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,33,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{1f1b577e-5e5a-4e8a-ba73-c657ea8e8598}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{1f1b577e-5e5a-4e8a-ba73-c657ea8e8598}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,31,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{2139e6da-c341-4774-9ac3-b4e026347f64}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{2139e6da-c341-4774-9ac3-b4e026347f64}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{248d8a3b-6256-44d3-a018-2ac96c459f47}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{248d8a3b-6256-44d3-a018-2ac96c459f47}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,36,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{343e68e6-8f82-4a8d-a2da-6e9a944b378c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{343e68e6-8f82-4a8d-a2da-6e9a944b378c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_9.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,39,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{3a2495ce-31d0-435b-8ccf-e9f0843fd960}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{3a2495ce-31d0-435b-8ccf-e9f0843fd960}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,36,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{3b80ee2a-b0f5-4780-9e30-90cb39685b03}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{3b80ee2a-b0f5-4780-9e30-90cb39685b03}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,30,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{3eda9b49-2085-498b-9bb2-39a6778493de}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{3eda9b49-2085-498b-9bb2-39a6778493de}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{4c5e637a-16c7-4de3-9c46-5ed22181962d}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{4c5e637a-16c7-4de3-9c46-5ed22181962d}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{4c9b6dde-6809-46e6-a278-9b6a97588670}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{4c9b6dde-6809-46e6-a278-9b6a97588670}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{54b68bc7-3a45-416b-a8c9-19bf19ec1df5}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{54b68bc7-3a45-416b-a8c9-19bf19ec1df5}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,35,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{5a508685-a254-4fba-9b82-9a24b00306af}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{5a508685-a254-4fba-9b82-9a24b00306af}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{629cf0de-3ecc-41e7-9926-f7e43eebec51}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{629cf0de-3ecc-41e7-9926-f7e43eebec51}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{65d822a4-4799-42c6-9b18-d26cf66dd320}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{65d822a4-4799-42c6-9b18-d26cf66dd320}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_10.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,31,00,30,00,2e,\
+  00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{6a93130e-1d53-41d1-a9cf-e758800bb179}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{6a93130e-1d53-41d1-a9cf-e758800bb179}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{6f6ea3a9-2cf5-41cf-91c1-2170b1540063}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{6f6ea3a9-2cf5-41cf-91c1-2170b1540063}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{77c56bf4-18a1-42b0-88af-5072ce814949}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{77c56bf4-18a1-42b0-88af-5072ce814949}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_8.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,38,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{8bb7778b-645b-4475-9a73-1de3170bd3af}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{8bb7778b-645b-4475-9a73-1de3170bd3af}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{94c1affa-66e7-4961-9521-cfdef3128d4f}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{94c1affa-66e7-4961-9521-cfdef3128d4f}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,33,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{962f5027-99be-4692-a468-85802cf8de61}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{962f5027-99be-4692-a468-85802cf8de61}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,31,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{9cab402c-1d37-44b4-886d-fa4f36170a4c}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{9cab402c-1d37-44b4-886d-fa4f36170a4c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{b802058a-464a-42db-bc10-b650d6f2586a}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{b802058a-464a-42db-bc10-b650d6f2586a}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{bc3e0fc6-2e0d-4c45-bc61-d9c328319bd8}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{bc3e0fc6-2e0d-4c45-bc61-d9c328319bd8}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,34,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{bcc782bc-6492-4c22-8c35-f5d72fe73c6e}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{bcc782bc-6492-4c22-8c35-f5d72fe73c6e}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,37,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{c0c56f46-29b1-44e9-9939-a32ce86867e2}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{c0c56f46-29b1-44e9-9939-a32ce86867e2}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{c1e3f122-a2ea-442c-854f-20d98f8357a1}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{c1e3f122-a2ea-442c-854f-20d98f8357a1}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{c60fae90-4183-4a3f-b2f7-ac1dc49b0e5c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{c60fae90-4183-4a3f-b2f7-ac1dc49b0e5c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,32,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{c7338b95-52b8-4542-aa79-42eb016c8c1c}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{c7338b95-52b8-4542-aa79-42eb016c8c1c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_4.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,34,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{cac1105f-619b-4d04-831a-44e1cbf12d57}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{cac1105f-619b-4d04-831a-44e1cbf12d57}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,37,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{cd0d66ec-8057-43f5-acbd-66dfb36fd78c}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{cd0d66ec-8057-43f5-acbd-66dfb36fd78c}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine2_7.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,32,00,5f,00,37,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{cecec95a-d894-491a-bee3-5e106fb59f2d}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{cecec95a-d894-491a-bee3-5e106fb59f2d}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{d06df0d0-8518-441e-822f-5451d5c595b8}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{d06df0d0-8518-441e-822f-5451d5c595b8}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_5.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,35,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{d3332f02-3dd0-4de9-9aec-20d85c4111b6}]
+@="XACT Engine"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{d3332f02-3dd0-4de9-9aec-20d85c4111b6}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\xactengine3_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,78,00,61,00,\
+  63,00,74,00,65,00,6e,00,67,00,69,00,6e,00,65,00,33,00,5f,00,32,00,2e,00,64,\
+  00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{e180344b-ac83-4483-959e-18a5c56a5e19}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{e180344b-ac83-4483-959e-18a5c56a5e19}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_3.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,33,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{e21a7345-eb21-468e-be50-804db97cf708}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{e21a7345-eb21-468e-be50-804db97cf708}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{e48c5a3f-93ef-43bb-a092-2c7ceb946f27}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{e48c5a3f-93ef-43bb-a092-2c7ceb946f27}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_6.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,36,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{f4769300-b949-4df9-b333-00d33932e9a6}]
+@="AudioReverb"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{f4769300-b949-4df9-b333-00d33932e9a6}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_1.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,31,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{f5ca7b34-8055-42c0-b836-216129eb7e30}]
+@="AudioVolumeMeter"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{f5ca7b34-8055-42c0-b836-216129eb7e30}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_2.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,32,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{fac23f48-31f5-45a8-b49b-5225d61401aa}]
+@="XAudio2"
+
+[HKEY_LOCAL_MACHINE\WIM_Software\Wow6432Node\Classes\CLSID\{fac23f48-31f5-45a8-b49b-5225d61401aa}\InProcServer32]
+; @="%SystemRoot%\\SysWow64\\XAudio2_0.dll"
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,53,00,79,00,73,00,57,00,6f,00,77,00,36,00,34,00,5c,00,58,00,41,00,\
+  75,00,64,00,69,00,6f,00,32,00,5f,00,30,00,2e,00,64,00,6c,00,6c,00,00,00
+"ThreadingModel"="Both"

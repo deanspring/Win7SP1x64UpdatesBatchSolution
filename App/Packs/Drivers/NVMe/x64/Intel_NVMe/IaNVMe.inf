@@ -1,0 +1,206 @@
+; Copyright (c) 2010-2017 Intel Corporation
+; ****************************************************************************
+; ****************************************************************************
+; **    Filename:  iaNvme.inf
+; **    Abstract:  Windows* INF File for Intel(R) NVMe Storage Devices
+; ****************************************************************************
+;
+
+[Version]
+Signature="$Windows NT$"
+Provider=%INTEL%
+ClassGUID={4D36E97B-E325-11CE-BFC1-08002BE10318}
+Class=SCSIAdapter
+DriverVer=05/11/2017,3.0.0.1013
+CatalogFile = IaNvme.cat
+
+[PackageInfo]
+Name=NVMe
+
+[Manufacturer]
+%INTEL% = INTEL_NVME, NTamd64.6.1, NTx86.6.1, NTamd64.6.2, NTx86.6.2
+
+[SourceDisksNames]
+1 = %DiskId1%,,,""
+
+[DestinationDirs]
+DefaultDestDir   = 12
+
+[nvme_Service_Inst]
+ServiceType    = %SERVICE_KERNEL_DRIVER%
+StartType      = %SERVICE_BOOT_START%
+ErrorControl   = %SERVICE_ERROR_NORMAL%
+ServiceBinary  = %12%\IaNVMe.sys
+LoadOrderGroup = SCSI miniport
+AddReg         = pnpsafe_pci_addreg
+AddReg         = Parameters
+
+[nvme_EventLog_Inst]
+AddReg = nvme_EventLog_AddReg
+
+[nvme_EventLog_AddReg]
+HKR,,EventMessageFile,%REG_EXPAND_SZ%,"%%SystemRoot%%\System32\IoLogMsg.dll"
+HKR,,TypesSupported,%REG_DWORD%,7
+
+[nvmeF_Service_Inst]
+ServiceType    = %SERVICE_KERNEL_DRIVER%
+StartType      = %SERVICE_BOOT_START%
+ErrorControl   = %SERVICE_ERROR_NORMAL%
+ServiceBinary  = %12%\IaNVMeF.sys
+;
+[nvmeF_EventLog_Inst]
+AddReg = nvmeF_EventLog_AddReg
+;
+[nvmeF_EventLog_AddReg]
+HKR,,EventMessageFile,%REG_EXPAND_SZ%,"%%SystemRoot%%\System32\IoLogMsg.dll"
+HKR,,TypesSupported,%REG_DWORD%,7
+
+[pnpsafe_pci_addreg]
+HKR, "Parameters\PnpInterface", "5", %REG_DWORD%, 0x00000001
+HKR, "Parameters", "BusType", %REG_DWORD%, 0x00000011
+
+[nvmeF_addreg]
+; Layer the Filter driver under all Disk class devices as a lower disk class filter
+;
+HKLM, System\CurrentControlSet\Control\Class\{4d36e967-e325-11ce-bfc1-08002be10318}, LowerFilters, 0x00010008, IaNVMeF
+
+[msi_addreg]
+HKR, Interrupt Management, 0x00000010
+HKR, Interrupt Management\MessageSignaledInterruptProperties, 0x00000010
+HKR, Interrupt Management\MessageSignaledInterruptProperties, MSISupported,       %REG_DWORD%,   1
+HKR, Interrupt Management\MessageSignaledInterruptProperties, MessageNumberLimit, %REG_DWORD%,   128
+HKR, Interrupt Management\Affinity Policy, 0x00000010
+HKR, Interrupt Management\Affinity Policy, DevicePolicy, %REG_DWORD%, 5 ;IrqPolicySpreadMessagesAcrossAllProcessors
+HKR, Interrupt Management\Affinity Policy, GroupPolicy, %REG_DWORD%, 1 ;set device interrupt on all processor groups
+
+[Parameters]
+HKR, Parameters\Device, DisableDAS,           %REG_DWORD%, 0x00000000
+HKR, Parameters\Device, StripeSizeBytes,      %REG_DWORD%, 0x00000000
+HKR, Parameters\Device, MaxSplitCmds,         %REG_DWORD%, 0x00000002
+
+;******************************************************************************
+;*
+;* 32-BIT X86 ARCHITECTURE
+;*
+;* This section specifies the 32-bit architecture specific INF file entries
+;* required to install a driver as a 32-bit compatible driver.
+;*
+;******************************************************************************
+[SourceDisksFiles.x86]
+IaNVMe.sys = 1,,,
+IaNVMeF.sys = 1,,,
+
+[INTEL_NVME.NTx86.6.1]
+%PCI\VEN_8086&DEV_0953.DeviceDesc% = nvme_inst, PCI\VEN_8086&DEV_0953
+%PCI\VEN_8086&DEV_0A53.DeviceDesc% = nvme_inst, PCI\VEN_8086&DEV_0A53
+%PCI\VEN_8086&DEV_0A54.DeviceDesc% = nvme_inst, PCI\VEN_8086&DEV_0A54
+%PCI\VEN_8086&DEV_F1A5.DeviceDesc% = nvme_inst, PCI\VEN_8086&DEV_F1A5
+%PCI\VEN_8086&DEV_2522.DeviceDesc% = nvme_inst, PCI\VEN_8086&DEV_2522
+%PCI\VEN_8086&DEV_A2BA.DeviceDesc% = nvme_inst, PCI\VEN_8086&DEV_A2BA
+%PCI\VEN_8086&DEV_2701.DeviceDesc% = nvme_inst, PCI\VEN_8086&DEV_2701
+
+[INTEL_NVME.NTx86.6.2]
+%PCI\VEN_8086&DEV_0953.DeviceDesc% = nvme_inst_8, PCI\VEN_8086&DEV_0953
+%PCI\VEN_8086&DEV_0A53.DeviceDesc% = nvme_inst_8, PCI\VEN_8086&DEV_0A53
+%PCI\VEN_8086&DEV_0A54.DeviceDesc% = nvme_inst_8, PCI\VEN_8086&DEV_0A54
+%PCI\VEN_8086&DEV_F1A5.DeviceDesc% = nvme_inst_8, PCI\VEN_8086&DEV_F1A5
+%PCI\VEN_8086&DEV_2522.DeviceDesc% = nvme_inst_8, PCI\VEN_8086&DEV_2522
+%PCI\VEN_8086&DEV_A2BA.DeviceDesc% = nvme_inst_8, PCI\VEN_8086&DEV_A2BA
+%PCI\VEN_8086&DEV_2701.DeviceDesc% = nvme_inst_8, PCI\VEN_8086&DEV_2701
+
+[nvme_inst.ntx86]
+CopyFiles=@IaNVMe.sys
+CopyFiles=@IaNVMeF.sys
+
+[nvme_inst_8.ntx86]
+CopyFiles=@IaNvme.sys
+
+[nvme_inst.ntx86.HW]
+AddReg = msi_addreg
+AddReg = nvmeF_addreg
+
+[nvme_inst_8.ntx86.HW]
+AddReg = msi_addreg
+
+[nvme_inst.ntx86.Services]
+AddService = IaNVMe, 0x00000002 , nvme_Service_Inst, nvme_EventLog_Inst
+AddService = IaNVMeF, , nvmeF_Service_Inst, nvmeF_EventLog_Inst
+
+[nvme_inst_8.ntx86.Services]
+AddService = IaNVMe, 0x00000002 , nvme_Service_Inst, nvme_EventLog_Inst
+
+;******************************************************************************
+;*
+;* 64-BIT X86 ARCHITECTURE
+;*
+;* This section specifies the 64-bit architecture specific INF file entries
+;* required to install a driver as a 64-bit compatible driver.
+;*
+;******************************************************************************
+
+[SourceDisksFiles.amd64]
+IaNVMe.sys = 1,,,
+IaNVMeF.sys = 1,,,
+
+[INTEL_NVME.NTamd64.6.1]
+%PCI\VEN_8086&DEV_0953.DeviceDesc% = nvme_inst, PCI\VEN_8086&DEV_0953
+%PCI\VEN_8086&DEV_0A53.DeviceDesc% = nvme_inst, PCI\VEN_8086&DEV_0A53
+%PCI\VEN_8086&DEV_0A54.DeviceDesc% = nvme_inst, PCI\VEN_8086&DEV_0A54
+%PCI\VEN_8086&DEV_F1A5.DeviceDesc% = nvme_inst, PCI\VEN_8086&DEV_F1A5
+%PCI\VEN_8086&DEV_2522.DeviceDesc% = nvme_inst, PCI\VEN_8086&DEV_2522
+%PCI\VEN_8086&DEV_A2BA.DeviceDesc% = nvme_inst, PCI\VEN_8086&DEV_A2BA
+%PCI\VEN_8086&DEV_2701.DeviceDesc% = nvme_inst, PCI\VEN_8086&DEV_2701
+
+[INTEL_NVME.NTamd64.6.2]
+%PCI\VEN_8086&DEV_0953.DeviceDesc% = nvme_inst_8, PCI\VEN_8086&DEV_0953
+%PCI\VEN_8086&DEV_0A53.DeviceDesc% = nvme_inst_8, PCI\VEN_8086&DEV_0A53
+%PCI\VEN_8086&DEV_0A54.DeviceDesc% = nvme_inst_8, PCI\VEN_8086&DEV_0A54
+%PCI\VEN_8086&DEV_F1A5.DeviceDesc% = nvme_inst_8, PCI\VEN_8086&DEV_F1A5
+%PCI\VEN_8086&DEV_2522.DeviceDesc% = nvme_inst_8, PCI\VEN_8086&DEV_2522
+%PCI\VEN_8086&DEV_A2BA.DeviceDesc% = nvme_inst_8, PCI\VEN_8086&DEV_A2BA
+%PCI\VEN_8086&DEV_2701.DeviceDesc% = nvme_inst_8, PCI\VEN_8086&DEV_2701
+
+[nvme_inst.NTamd64]
+CopyFiles=@IaNVMe.sys
+CopyFiles=@IaNVMeF.sys
+
+[nvme_inst_8.NTamd64]
+CopyFiles=@IaNVMe.sys
+
+[nvme_inst.NTamd64.HW]
+AddReg = msi_addreg
+AddReg = nvmeF_addreg
+
+[nvme_inst_8.NTamd64.HW]
+AddReg = msi_addreg
+
+[nvme_inst.NTamd64.Services]
+AddService = IaNVMe, 0x00000002 , nvme_Service_Inst, nvme_EventLog_Inst
+AddService = IaNVMeF, , nvmeF_Service_Inst, nvmeF_EventLog_Inst
+
+[nvme_inst_8.NTamd64.Services]
+AddService = IaNVMe, 0x00000002 , nvme_Service_Inst, nvme_EventLog_Inst
+
+[Strings]
+;Localizable
+diskId1 = "NVME Installation Disk"
+PCI\VEN_8086&DEV_0953.DeviceDesc = "Intel(R) Solid-State Drive P3700/P3600/P3500/P3520/750 Series"
+PCI\VEN_8086&DEV_0A53.DeviceDesc = "Intel(R) Solid-State Drive DC P3520 Series"
+PCI\VEN_8086&DEV_0A54.DeviceDesc = "Intel(R) SSD DC P4500/4600/4501/4601/4608 Series"
+PCI\VEN_8086&DEV_F1A5.DeviceDesc = "Intel(R) Solid-State Drive 600P Series"
+PCI\VEN_8086&DEV_2522.DeviceDesc = "Intel(R) Optane Memory 8000p Series"
+PCI\VEN_8086&DEV_A2BA.DeviceDesc = "Intel(R) Optane Memory 8000p Series"
+PCI\VEN_8086&DEV_2701.DeviceDesc = "Intel(R) Optane SSD DC P4800x Series"
+INTEL="Intel"
+
+;*******************************************
+;Non-Localizable
+REG_EXPAND_SZ  = 0x00020000
+REG_DWORD      = 0x00010001
+SERVICE_KERNEL_DRIVER  = 1
+SERVICE_BOOT_START     = 0
+SERVICE_ERROR_NORMAL   = 1
+SERVICE_FILE_SYSTEM_DRIVER = 2
+SERVICE_DEMAND_START = 3
+SERVICE_SYSTEM_START = 1
+SPSVCINST_STARTSERVICE = 0x00000800

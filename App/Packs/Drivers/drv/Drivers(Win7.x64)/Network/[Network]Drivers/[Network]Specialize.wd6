@@ -1,0 +1,2 @@
+[AfterInstall]
+Wlan.Atheros\OEM\Dell=Wlan.Atheros\OEM\Dell\WlhtMode_x64.Exe
