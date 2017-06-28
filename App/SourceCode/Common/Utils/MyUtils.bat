@@ -88,6 +88,7 @@ IF NOT EXIST "%MountedDir%" (
     ECHO 当前没有需要卸载的映像. . .
 ) else (
     ECHO 镜像挂载的目录是:"%MountedDir%"
+    CALL :UnMountRegistry %MountedDir:\=/% >NUL 2>&1
     Dism /English /Unmount-Wim /MountDir:"%MountedDir%" /Discard >NUL 2>&1
     rd /s /q "!MountedDir!"
 )
@@ -102,6 +103,17 @@ if %errorlevel% equ 0 (
     ECHO.
 )
 GOTO :EOF
+::===================================================================================================================
+:UnMountRegistry
+reg unload HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}%1/Users/Default/NTUSER.DAT
+reg unload HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}%1/Windows/system32/config/COMPONENTS
+reg unload HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}%1/Windows/system32/config/DEFAULT
+reg unload HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}%1/Windows/system32/config/SAM
+reg unload HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}%1/Windows/system32/config/SECURITY
+reg unload HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}%1/Windows/system32/config/SOFTWARE
+reg unload HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}%1/Windows/system32/config/SYSTEM
+reg unload HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}%1/Windows/system32/smi/store/Machine/schema.dat
+GOTO :EOF 
 ::===================================================================================================================
 :KillRelatedProcess
 taskkill /f /IM dism.exe >NUL 2>&1
