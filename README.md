@@ -56,4 +56,4 @@ A Batch Solution For Windows Updates of Windows7 SP1 x64 Simplified Chinese Offi
 
 最后，本程序是否继续更新尚无定数，制作开发不易，且用且珍惜！
 
-本工具前身传送门：http://bbs.pcbeta.com/viewthread-1703759-1-1.html
+本工具远景论坛发布页面：http://bbs.pcbeta.com/viewthread-1747658-1-1.html
