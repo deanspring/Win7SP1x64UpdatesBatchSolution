@@ -62,7 +62,6 @@ if "%input%"=="10" (CALL :AddSupport NVMe)
 if "%input%"=="11" (CALL :AddUnattendToWIM Admin)
 if "%input%"=="12" (GOTO :AddNewCPUSupportPatch)
 if "%input%"=="13" (GOTO :CreateISO)
-if "%input%"=="di" (GOTO :AutoDiscard)
 if "%input%"=="slim" (CALL :AddSupport slim)
 if "%input%"=="re" (GOTO :RebuildCurrentInstallWIM)
 if "%input%"=="info" (GOTO :GetCurrentImageInfo)
@@ -774,15 +773,6 @@ GOTO :EOF
 (IF NOT EXIST "!WimMountDir!\!WimIndexNo!\drv" MD "!WimMountDir!\!WimIndexNo!\drv")&&(XCOPY "%APP_HOME%\Packs\Drivers\drv\*.*" "!WimMountDir!\!WimIndexNo!\drv\" /y /s /e /h /q  >NUL 2>&1)
 GOTO :EOF
 ::===================================================================================================================
-:AutoDiscard
-cls
-CALL :MENUHEADER " 清理当前挂载的镜像，且不提交之前对镜像的任何修改。"
-CALL "%APP_HOME%\SourceCode\Common\Utils\MyUtils.bat" DoAutoDiscard
-CALL "%APP_HOME%\SourceCode\Common\Utils\MyUtils.bat" FOOTER
-PAUSE
-GOTO :ISOMenu
-GOTO :EOF
-::===================================================================================================================
 :SucessPause
 if "%~1"=="" (
     ECHO.
@@ -809,11 +799,7 @@ if "%IndexSize%"=="1" (
 GOTO :EOF
 ::===================================================================================================================
 :AutoStartMount
-IF EXIST !WimMountDir! (
-    CALL :DoAutoDiscard >nul
-) else (
-    MD "!WimMountDir!"  
-)
+IF NOT EXIST !WimMountDir! MD "!WimMountDir!
 CALL :GetIndexInstalled
 IF "!MountedState!"=="Ok" (
     GOTO :EOF
