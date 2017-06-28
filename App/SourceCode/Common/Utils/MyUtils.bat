@@ -105,6 +105,7 @@ if %errorlevel% equ 0 (
 GOTO :EOF
 ::===================================================================================================================
 :UnMountRegistry
+reg unload HKLM\BCD00000000
 reg unload HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}%1/Users/Default/NTUSER.DAT
 reg unload HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}%1/Windows/system32/config/COMPONENTS
 reg unload HKLM\{bf1a281b-ad7b-4476-ac95-f47682990ce7}%1/Windows/system32/config/DEFAULT
