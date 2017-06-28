@@ -108,8 +108,10 @@ IF EXIST "%ProgramFiles(x86)%\Baidu\BaiduSd" CALL :ShowTips 百度杀毒
 IF EXIST "%ProgramFiles(x86)%\Baidu\BaiduAn" CALL :ShowTips 百度卫士
 IF EXIST "%ProgramFiles(x86)%\kingsoft\kingsoft antivirus\kismain.exe" CALL :ShowTips 金山毒霸
 IF EXIST "%ProgramFiles(x86)%\ksafe\KSafe.exe" CALL :ShowTips 金山卫士
-IF EXIST "%ProgramFiles(x86)%\360" CALL :ShowTips 360旗下相关软件
-IF EXIST "%ProgramFiles(x86)%\2345Soft" CALL :ShowTips 2345旗下相关软件
+IF EXIST "%ProgramFiles(x86)%\2345Soft\2345PCSafe\2345MPCSafe.exe" CALL :ShowTips 2345安全卫士
+IF EXIST "%ProgramFiles(x86)%\360\360Safe\360Safe.exe" CALL :ShowTips 360安全卫士
+IF EXIST "%ProgramFiles(x86)%\360\360sd\360sd.exe" CALL :ShowTips 360杀毒
+IF EXIST "%ProgramFiles(x86)%\Tencent\QQPCMgr" CALL :ShowTips 电脑管家
 GOTO :EOF
 ::===================================================================================================================
 :ShowTips
