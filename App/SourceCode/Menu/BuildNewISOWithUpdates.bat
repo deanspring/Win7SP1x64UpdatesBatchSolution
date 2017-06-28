@@ -178,11 +178,11 @@ SET WORK_HOME=
 GOTO :EOF
 
 rem 检测输入盘符对应分区的剩余空间
-
 :CheckFreeSpace
-FOR /F "usebackq delims=" %%v IN (`powershell -noprofile "& {$disk = Get-WmiObject Win32_LogicalDisk -Filter ""DeviceID="'%1:'""" | Select-Object FreeSpace;[math]::truncate($disk.FreeSpace/ 1GB)}"`) DO SET /A "FreeSpace=%%v"
+FOR /F "usebackq delims== tokens=2" %%v IN (`wmic logicaldisk where "DeviceID='%1:'" get FreeSpace /format:value`) DO SET "FreeSpace=%%v"
+FOR /F "usebackq delims=" %%v IN (`powershell -noprofile "& {[math]::truncate(%FreeSpace%/ 1GB)}"`) DO SET /A "FreeSpace=%%v"
 if %FreeSpace% lss 30 (
-    ECHO.
+    ECHO.    
     ECHO 剩余空间 小于 30GB,请输入一个剩余空间大于30GB的分区盘符
     GOTO :InputWorkHome
 ) else (
