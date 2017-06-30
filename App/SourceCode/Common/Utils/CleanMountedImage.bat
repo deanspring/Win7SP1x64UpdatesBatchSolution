@@ -64,12 +64,10 @@ CALL :TakeDirectoryOwnerShip "!MountHome!\Windows\WinSxS\poqexec.log"
 CALL :TakeDirectoryOwnerShip "!MountHome!\System Volume Information"
 CALL :TakeDirectoryOwnerShip "!MountHome!\Windows\System32\DriverStore\INFCACHE.1"
 CALL :TakeDirectoryOwnerShip "!MountHome!\Windows\System32\DriverStore\FileRepository\*.PNF"
-CALL :TakeDirectoryOwnerShip "!MountHome!\Windows\System32\LogFiles\WMI"
 del /f /s /q /a "!MountHome!\Windows\WinSxS\poqexec.log"
 del /f /s /q /a "!MountHome!\System Volume Information"
 del /f /s /q /a "!MountHome!\Windows\System32\DriverStore\INFCACHE.1"
 del /f /s /q /a "!MountHome!\Windows\System32\DriverStore\FileRepository\*.PNF"
-del /f /s /q /a "!MountHome!\Windows\System32\LogFiles\WMI"
 GOTO :EOF
 ::-------------------------------------------------------------------------------------------------------------------
 :DoCleanFolderWithRule
