@@ -100,26 +100,44 @@ del /f /q /a %ISOHOME%\boot\fonts\kor_boot.ttf
 del /f /q /a %ISOHOME%\efi\microsoft\boot\fonts\cht_boot.ttf
 del /f /q /a %ISOHOME%\efi\microsoft\boot\fonts\jpn_boot.ttf
 del /f /q /a %ISOHOME%\efi\microsoft\boot\fonts\kor_boot.ttf
+CALL :GetWimIndexName
 IF EXIST "%ISOHOME%\sources\install_Windows 7 ULTIMATE.clg" (
-    if "%WimIndexNo%"=="1" (
-        del /f /q /a "%ISOHOME%\sources\install_Windows 7 HOMEPREMIUM.clg"
-        del /f /q /a "%ISOHOME%\sources\install_Windows 7 PROFESSIONAL.clg"
-        del /f /q /a "%ISOHOME%\sources\install_Windows 7 ULTIMATE.clg"
+    if "%IndexSize%"=="1" (
+        if "%IndexName%"=="Windows 7 家庭普通版" (
+            del /f /q /a "%ISOHOME%\sources\install_Windows 7 HOMEPREMIUM.clg"
+            del /f /q /a "%ISOHOME%\sources\install_Windows 7 PROFESSIONAL.clg"
+            del /f /q /a "%ISOHOME%\sources\install_Windows 7 ULTIMATE.clg"
+        )
+        if "%IndexName%"=="Windows 7 家庭高级版" (
+            del /f /q /a "%ISOHOME%\sources\install_Windows 7 HOMEBASIC.clg"
+            del /f /q /a "%ISOHOME%\sources\install_Windows 7 PROFESSIONAL.clg"
+            del /f /q /a "%ISOHOME%\sources\install_Windows 7 ULTIMATE.clg"
+        )
+        if "%IndexName%"=="Windows 7 专业版" (
+            del /f /q /a "%ISOHOME%\sources\install_Windows 7 HOMEBASIC.clg"
+            del /f /q /a "%ISOHOME%\sources\install_Windows 7 HOMEPREMIUM.clg"
+            del /f /q /a "%ISOHOME%\sources\install_Windows 7 ULTIMATE.clg"
+        )
+        if "%IndexName%"=="Windows 7 旗舰版" (
+            del /f /q /a "%ISOHOME%\sources\install_Windows 7 HOMEBASIC.clg"
+            del /f /q /a "%ISOHOME%\sources\install_Windows 7 HOMEPREMIUM.clg"
+            del /f /q /a "%ISOHOME%\sources\install_Windows 7 PROFESSIONAL.clg"
+        )  
     )
-    if "%WimIndexNo%"=="2" (
-        del /f /q /a "%ISOHOME%\sources\install_Windows 7 HOMEBASIC.clg"
-        del /f /q /a "%ISOHOME%\sources\install_Windows 7 PROFESSIONAL.clg"
-        del /f /q /a "%ISOHOME%\sources\install_Windows 7 ULTIMATE.clg"
-    )
-    if "%WimIndexNo%"=="3" (
-        del /f /q /a "%ISOHOME%\sources\install_Windows 7 HOMEBASIC.clg"
-        del /f /q /a "%ISOHOME%\sources\install_Windows 7 HOMEPREMIUM.clg"
-        del /f /q /a "%ISOHOME%\sources\install_Windows 7 ULTIMATE.clg"
-    )
-    if "%WimIndexNo%"=="4" (
-        del /f /q /a "%ISOHOME%\sources\install_Windows 7 HOMEBASIC.clg"
-        del /f /q /a "%ISOHOME%\sources\install_Windows 7 HOMEPREMIUM.clg"
-        del /f /q /a "%ISOHOME%\sources\install_Windows 7 PROFESSIONAL.clg"
-    )    
 )
 XCOPY "%APP_HOME%\Packs\ISOPrepare\normal\*.*"  "%ISOHOME%\" /y /s /e /h /q
+GOTO :EOF
+:GetWimIndexName
+FOR /F "tokens=1,* delims= " %%a in ('!DISM! /Get-WimInfo /WimFile:!WORK_HOME!:\UPDATE_HOME\ISO\sources\install.wim') DO (
+    if "%%~a"=="Index" (
+        endlocal
+        SET IndexSize=%%~b
+        SET IndexSize=!IndexSize:~2,2!
+    )
+    if "%%~a"=="Name" (
+        SET IndexName=%%~b
+        SET IndexName=!IndexName:~2,20!
+        REM ECHO  !IndexSize!   !IndexName!
+    )
+)
+GOTO :EOF
