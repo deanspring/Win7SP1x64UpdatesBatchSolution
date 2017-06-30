@@ -347,9 +347,6 @@ FOR /F "tokens=2 delims=: " %%a in ('!DISM! /Get-WimInfo /WimFile:!InstallWim! ^
     ) else (
         if "%~1"=="slim" (
             ECHO 正在为%~2.wim进行瘦身操作. . .
-            CALL :AddPack NetFX47
-            CALL :AddPack RuntimePack
-            CALL :AddPack DirectX9c
             CALL :DoCleanup
             ECHO 成功瘦身 !InstallWim! 的索引!WimIndexNo!中的映像. . .
         ) else (
@@ -789,24 +786,30 @@ GOTO :EOF
 ::===================================================================================================================
 :GetIndexInstalled
 FOR /F "tokens=1,* delims=: " %%a in ('%DISM% /Get-WimInfo /WimFile:"!WORK_HOME!:\UPDATE_HOME\ISO\sources\install.wim"') DO (
-    if "%%~a"=="Index" (
+    IF "%%~a"=="Index" (
         SET IndexSize=%%~b
     )
 )
-if "%IndexSize%"=="1" (
+IF "%IndexSize%"=="1" (
     SET WimIndexNo=1
 )
 GOTO :EOF
 ::===================================================================================================================
 :AutoStartMount
-IF NOT EXIST !WimMountDir! MD "!WimMountDir!
+IF "!WimMountDir!"=="" SET WimMountDir=!WORK_HOME!:\UPDATE_HOME\INSTALL_MOUNT
+IF EXIST !WimMountDir! (
+    rd /s /q !WimMountDir!>NUL 2>&1
+    MD !WimMountDir!>NUL 2>&1
+) ELSE (
+    MD !WimMountDir!>NUL 2>&1
+)
 CALL :GetIndexInstalled
 IF "!MountedState!"=="Ok" (
     GOTO :EOF
-)else (
-    if "!WimIndexNo!"=="1" (
+) ELSE (
+    IF "!WimIndexNo!"=="1" (
         for /d %%a in (!WimIndexNo!) DO (IF NOT EXIST "!WimMountDir!\%%a" MD "!WimMountDir!\%%a")&&(!DISM! /mount-wim /wimfile:"!wim!" /index:%%a /mountdir:"!WimMountDir!\%%a") 
-    )else (
+    ) ELSE (
         CALL :AutoMount
     )
     GOTO :EOF
