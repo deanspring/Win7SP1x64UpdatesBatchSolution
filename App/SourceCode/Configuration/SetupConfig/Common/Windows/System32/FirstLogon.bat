@@ -67,11 +67,6 @@ IF EXIST "%ServicingStack%" (
 IF EXIST "%KB3172605%" (
     dism /online /Add-Package /PackagePath:"%KB3172605%" /norestart /quiet
 )
-CALL :InstallWufuc
-GOTO :EOF
-::===================================================================================================================
-:InstallWufuc
-IF EXIST "%WINDIR%\System32\wufuc%OS_ARCHITECTURE%.dll" CALL "%WINDIR%\System32\install_wufuc.bat"
 GOTO :EOF
 ::===================================================================================================================
 :PowerSetting
