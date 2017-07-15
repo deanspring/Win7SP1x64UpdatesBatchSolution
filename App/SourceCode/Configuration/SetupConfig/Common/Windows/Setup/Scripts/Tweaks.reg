@@ -237,6 +237,9 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
 "ShowDriveLettersFirst"=-
 
+#支持长路径
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"LongPathsEnabled"=dword:00000001
 
 #设置Windows Update为检查更新，但是让我选择是否下载和安装更新[推荐非Ryzen/7代酷睿及时更新最新补丁]
 #"AUOptions"=dword:00000001 从不检查更新(不推荐)
