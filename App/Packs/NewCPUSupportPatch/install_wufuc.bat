@@ -71,7 +71,7 @@ echo in which case, you will need to make an exception and restore it.
 goto :die
 
 :get_ver
-for /f "tokens=*" %%i in ('wmic /output:stdout datafile where "name='%wufuc_dll:\=\\%'" get Version /value ^| find "="') do set "%%i"
+call :get_filever "%wufuc_dll%"
 title wufuc installer - v%Version%
 
 REM set "wufuc_xml=%~dp0wufuc.xml"
@@ -90,15 +90,15 @@ goto :die
 :check_ver
 ver | findstr " 6\.1\." >nul && (
     set "WINDOWS_VER=6.1"
-    set "SUPPORTED_HOTFIXES=KB4022168 KB4022722 KB4022719 KB4019265 KB4019264 KB4015552 KB4015549 KB4015546 KB4012218"
+    set "WUAUENG_DLL_MIN_VER=7.6.7601.23714"
     echo Detected supported operating system: Windows 7 %WINDOWS_ARCHITECTURE%
-    goto :check_hotfix
+    goto :check_wuaueng_ver
 )
 ver | findstr " 6\.3\." >nul && (
     set "WINDOWS_VER=8.1"
-    set "SUPPORTED_HOTFIXES=KB4022720 KB4022726 KB4022717 KB4019217 KB4019215 KB4015553 KB4015550 KB4015547 KB4012219"
+    set "WUAUENG_DLL_MIN_VER=7.9.9600.18621"
     echo Detected supported operating system: Windows 8.1 %WINDOWS_ARCHITECTURE%
-    goto :check_hotfix
+    goto :check_wuaueng_ver
 )
 
 :unsupported_os
@@ -119,33 +119,36 @@ echo and that this warning is a mistake, you may continue with the patching proc
 echo at your own peril.
 goto :confirmation
 
-:check_hotfix
-echo Checking installed updates, please wait...
-for %%a in (%SUPPORTED_HOTFIXES%) do (
-    wmic /output:stdout qfe get hotfixid | find "%%a" >nul && (
-        set "INSTALLED_HOTFIX=%%a"
-        echo Detected supported installed update: %%a
-        goto :install
-    )
+:check_wuaueng_ver
+call :get_filever "%systemroot%\System32\wuaueng.dll"
+call :compareversion "%WUAUENG_DLL_MIN_VER%" "%Version%"
+if errorlevel 1 (
+    echo.
+    echo ERROR - Detected that wuaueng.dll is below the minimum supported version.
+    echo.
+    goto :die
 )
-wmic /output:stdout qfe get /value 2>&1 | find "No Instance(s) Available" >nul && (
-    echo WARNING - wmic qfe is broken, can't check installed updates...
-    goto :install
-)
-echo.
-echo WARNING - Detected that no supported updates are installed.
-echo.
-echo   This warning could also mean that a new update came out and the
-echo   wufuc installer script's list of updates hasn't been updated yet. 
-echo   If this is definitely the case and you know which update it is,
-echo   feel free to create an issue.  https://github.com/zeffy/wufuc/issues
+echo Detected supported Windows Update agent version: %Version%
+goto :install
 
+:confirmation
+echo.
+echo wufuc disables the "Unsupported Hardware" message in Windows Update, 
+echo and allows you to continue installing updates on Windows 7 and 8.1
+echo systems with Intel Kaby Lake, AMD Ryzen, or other unsupported processors.
+echo.
+echo Please be absolutely sure you really need wufuc before proceeding.
+echo.
+set /p CONTINUE=Enter 'Y' if you want to install wufuc: 
+if /I not "%CONTINUE%"=="Y" goto :cancel
+echo.
 
 :install
-set "wufuc_task=wufuc.{72EEE38B-9997-42BD-85D3-2DD96DA17307}"
+sfc /SCANFILE="%systemroot%\System32\wuaueng.dll"
 net start Schedule
+set "wufuc_task=wufuc.{72EEE38B-9997-42BD-85D3-2DD96DA17307}"
 schtasks /Create /XML "%wufuc_xml%" /TN "%wufuc_task%" /F
-schtasks /Change /TN "%wufuc_task%" /TR "'%systemroot%\system32\rundll32.exe' """%wufuc_dll%""",Rundll32Entry"
+schtasks /Change /TN "%wufuc_task%" /TR "'%systemroot%\System32\rundll32.exe' """%wufuc_dll%""",Rundll32Entry"
 schtasks /Change /TN "%wufuc_task%" /ENABLE
 rundll32 "%wufuc_dll%",Rundll32Unload
 net stop wuauserv
@@ -166,3 +169,55 @@ echo Press any key to exit...
 del /f /q /a "%wufuc_xml%"
 del /f /q %0
 GOTO :EOF
+
+
+:cancel
+echo.
+echo Canceled by user, press any key to exit...
+pause >nul
+exit
+
+:get_filever  file
+set "file=%~1"
+for /f "tokens=*" %%i in ('wmic /output:stdout datafile where "name='%file:\=\\%'" get Version /value ^| find "="') do set "%%i"
+exit /b
+
+:compareversion  version1  version2
+:: https://stackoverflow.com/a/15809139
+:: Compares two version numbers and returns the result in the ERRORLEVEL
+::
+:: Returns 1 if version1 > version2
+::         0 if version1 = version2
+::        -1 if version1 < version2
+::
+:: The nodes must be delimited by . or , or -
+::
+:: Nodes are normally strictly numeric, without a 0 prefix. A letter suffix
+:: is treated as a separate node
+setlocal enableDelayedExpansion
+set "v1=%~1"
+set "v2=%~2"
+call :divideLetters v1
+call :divideLetters v2
+:loop
+call :parseNode "%v1%" n1 v1
+call :parseNode "%v2%" n2 v2
+if %n1% gtr %n2% exit /b 1
+if %n1% lss %n2% exit /b -1
+if not defined v1 (
+    if not defined v2 ( exit /b 0 )
+)
+if not defined v1 ( exit /b -1 )
+if not defined v2 ( exit /b 1 )
+goto :loop
+
+:parseNode  version  nodeVar  remainderVar
+for /f "tokens=1* delims=.,-" %%A in ("%~1") do (
+  set "%~2=%%A"
+  set "%~3=%%B"
+)
+exit /b
+
+:divideLetters  versionVar
+for %%C in (a b c d e f g h i j k l m n o p q r s t u v w x y z) do set "%~1=!%~1:%%C=.%%C!"
+exit /b
